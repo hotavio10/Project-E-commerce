@@ -1,0 +1,96 @@
+/* Resetar a formatação*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Primeiras configurações do header para ajustar o navbar*/
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background: gray;
+}
+
+/* configuração do menu responsivo deixando os itens lado a lado*/
+.heading ul {
+    display: flex;
+}
+
+/* Configuração da transicao da logo do navbar*/
+.logo a {
+    color: rgb(5, 5, 5);
+    transition-duration: 1s;
+    border-radius: 1px solid red;
+    font-weight: 800;
+}
+.logo a:hover {
+    color: rgb(240, 6, 189);
+    transition-duration: 1s;
+}
+
+/* tirar estilo do menu responsivo*/
+.heading ul {
+    list-style: none;
+}
+
+/* configuraçoes do menu responsivo*/
+.heading ul li a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    position: relative;
+    color: white;
+    margin: 2px 14px;
+    font-size: 18px;
+    transition-duration: 1s;
+}
+
+/*cor do link ao clicar na section do menu responsivo*/
+.heading ul li a:active {
+    color: red;
+}
+
+/* cor e duração da transição o passar por cima com o mouse no menu responsivo*/
+.heading ul li a:hover {
+    color: black;
+    transition-duration: 1s;
+}
+
+/*movimentação e  cor do before(a barra que aparece em baixo da palavra) no menu responsivo*/
+.heading ul li a::before {
+    content:'';
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    transition-duration: 1s;
+}
+.heading ul li a:hover::before {
+    width: 100%;
+    transition-duration: 1s;
+    color: rgb(218, 125, 156);
+}
+
+/* ajustes de tamanho do search ou caixa de pesquisa*/
+#input {
+    height: 30px;
+    width: 300px;
+    text-decoration: none;
+    border: 0px;
+    padding: 5px;
+}
+
+/*tamanho e cor da logo*/
+.logo a {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    text-decoration: none;
+}
