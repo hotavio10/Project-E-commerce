@@ -94,3 +94,121 @@ header {
     font-weight: 500;
     text-decoration: none;
 }
+
+/*configuraçoes do botão menu hamburguer*/
+ion-icon {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(197, 6, 124);
+    color: white;
+}
+ion-icon:hover {
+    cursor: pointer;
+}
+/*posicionamento do search*/
+.search a {
+    display: flex;
+}
+
+/*posicionamento do icon hamburguer*/
+header a ion-icon {
+    position: relative;
+    right: 2px;
+}
+
+/*Configurçoes do título destaques do inicio*/
+/**/
+.title h1 {
+    position: center;
+    width: 1080;
+    height: 720;
+    text-align: center;
+    color: black;
+}
+
+/*tamanho das imgs do slide*/
+.img-slider img {
+    width: 1080px;
+    height: 720px;
+    margin-top: 30px;
+}
+
+/*key de slider*/
+@keyframes slide {
+    0%{
+        left: 0px;
+    }
+    15%{  
+        left:0px;  
+      }  
+      20%{  
+        left:-1080px;  
+      }  
+      32%{  
+        left:-1080px;  
+      }  
+      35%{  
+        left:-2160px;  
+      }  
+      47%{  
+        left:-2160px;  
+      }  
+      50%{  
+        left:-3240px;  
+      }  
+      63%{  
+        left:-3240px;  
+      }  
+      66%{  
+        left:-4320px;  
+      }  
+      79%{  
+        left:-4320px;  
+      }  
+      82%{  
+        left:-5400px;  
+      }  
+      100%{  
+        left:0px;  
+}}  
+
+/*configurações da movimentação do slide*/
+.img-slider {
+    display: flex;
+    float: left;
+    position: relative;
+    width: 1080px;
+    height: 720px;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/*transparencia do hamburguer menu*/
+.heading1 {
+    opacity: 0;
+}
+
+/*posicionamento do serch*/
+.search {
+    display: flex;
+    position: relative;
+}
+
+/*ajustes e configurações da section*/
+.section0 {
+    max-width: 400px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 10px auto;
+}
+
+/*ajustes e configurações da section*/
+.section1 {
+    width: 1080px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto 10px auto ;
+}
