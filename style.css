@@ -215,12 +215,12 @@ header a ion-icon {
     align-items: center;
     margin: 25px auto 10px auto ;
 }
-
-.section2 {
-    width: 1080px;
-    top: 1300px;
-
-
+.container {
+    width: 1366px;
+    height: 766px;
+    padding: auto;
+    margin: 25px auto 10px auto;
+}
 .container .img {
     position: ;
     max-width: 35%;
