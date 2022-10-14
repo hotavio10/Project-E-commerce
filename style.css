@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+body {
+}
+
 /* Primeiras configurações do header para ajustar o navbar*/
 header {
     display: flex;
@@ -218,10 +221,15 @@ header a ion-icon {
     top: 1300px;
 
 
+.container .img {
+    position: ;
+    max-width: 35%;
+    max-height: auto;
+    float: left;
 }
 
-.section2 .sobre {
-    width: 482px;
-    left: 502px;
-    top
+.container .info {
+    width: 610px;
+    height: 312px;
+    float: right;
 }
