@@ -219,10 +219,9 @@ header a ion-icon {
 .section2 {
     width: 1080px;
     top: 1300px;
-
+}
 
 .container .img {
-    position: ;
     max-width: 35%;
     max-height: auto;
     float: left;
@@ -232,4 +231,25 @@ header a ion-icon {
     width: 610px;
     height: 312px;
     float: right;
+}
+
+.section-sobre {
+    display: flex;
+    padding: 40px 166px;
+    gap: 30px;
+}
+
+.section-sobre img {
+    height: 340px;
+}
+
+.section-sobre div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-sobre div h3 {
+    font-size: 30px;
+    font-weight: bold;
 }
